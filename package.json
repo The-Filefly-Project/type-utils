@@ -1,0 +1,19 @@
+{
+  "name": "type-utils",
+  "version": "1.0.0",
+  "description": "Filefly utility types",
+  "types": "./types/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/The-Filefly-Project/type-utils.git"
+  },
+  "author": "4Sight",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/The-Filefly-Project/type-utils/issues"
+  },
+  "homepage": "https://github.com/The-Filefly-Project/type-utils#readme"
+}
