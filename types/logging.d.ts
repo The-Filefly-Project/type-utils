@@ -1,3 +1,4 @@
+
 /**
  * Logging levels used across the Filefly server.
  */
@@ -10,4 +11,7 @@ declare type LogLevel = 'critical' | 'error' | 'warn' | 'notice' | 'info' | 'htt
  * Any library that has the necessity or is of the high enough importance to the
  * security of the server implements this interface.
  */
-declare type LogEventCapable<LogType = any> = $EventEmitter<Record<LogLevel, LogType[]>>
+declare interface LogEventCapable<LogType = any> extends $EventEmitter<Record<LogLevel, LogType[]>> {
+    /** Module scope used for indicating the source of the emitted log events. */
+    scope: string
+}
