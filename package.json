@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/The-Filefly-Project/type-utils/issues"
   },
-  "homepage": "https://github.com/The-Filefly-Project/type-utils#readme"
+  "homepage": "https://github.com/The-Filefly-Project/type-utils#readme",
+  "devDependencies": {
+    "@types/node": "^20.11.26"
+  }
 }
