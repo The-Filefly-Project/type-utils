@@ -11,7 +11,7 @@
  * value.doSomething() 
  * ```
  */
-declare type Rav<E = Error, V = any> = [E, undefined] | [undefined, V]
+declare type Eav<E = Error, V = any> = [E, undefined] | [undefined, V]
 
 /**
  * An async error-as-value return type.  
@@ -25,4 +25,4 @@ declare type Rav<E = Error, V = any> = [E, undefined] | [undefined, V]
  * value.doSomething() 
  * ```
  */
-declare type ARav<E = Error, V = any> = Promise<[E, undefined] | [undefined, V]>
+declare type EavAsync<E = Error, V = any> = Promise<[E, undefined] | [undefined, V]>
