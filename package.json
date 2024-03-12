@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/The-Filefly-Project/type-utils#readme",
   "devDependencies": {
-    "@types/node": "^20.11.26"
+    "@types/node": "^20.11.26",
+    "typescript": "^5.4.2"
   }
 }

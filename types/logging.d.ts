@@ -1,5 +1,3 @@
-import type EventEmitter from 'events'
-
 /**
  * Logging levels used across the Filefly server.
  */
@@ -12,4 +10,4 @@ declare type LogLevel = 'critical' | 'error' | 'warn' | 'notice' | 'info' | 'htt
  * Any library that has the necessity or is of the high enough importance to the
  * security of the server implements this interface.
  */
-declare type LogEventCapable<LogType = any> = EventEmitter<Record<LogLevel, LogType[]>>
+declare type LogEventCapable<LogType = any> = $EventEmitter<Record<LogLevel, LogType[]>>
